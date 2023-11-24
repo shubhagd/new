@@ -1,0 +1,11 @@
+<apex:page Controller="WithSharingMethod" >
+  <apex:form >
+  <apex:pageBlock >
+   {!$User.FirstName}
+  
+     
+      <apex:inputtext value="{!acc.name}"/>
+</apex:pageBlock>
+<apex:commandButton value="Save" action="{!save}"/>
+  </apex:form>
+</apex:page>

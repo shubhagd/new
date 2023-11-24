@@ -1,0 +1,19 @@
+<apex:page standardController="Invoice__c" >
+<apex:form >
+
+<apex:pageblock title="Edit Invoice">
+<apex:pageblockSection columns="3" title="Invoice Information">
+<apex:inputfield value="{!Invoice__c.Name}"/>
+<apex:inputfield value="{!Invoice__c.Invoice_Desc__c}"/>
+<apex:inputfield value="{!Invoice__c.Invoice_closed_datee__c}"/>
+</apex:pageblockSection>
+
+<apex:pageblockButtons >
+
+<apex:commandButton value="Save" action="{!Save}"/>
+<apex:commandButton value="Cancel" action="{!Cancel}"/>
+</apex:pageblockButtons>
+</apex:pageblock>
+</apex:form>
+  
+</apex:page>

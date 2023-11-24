@@ -1,0 +1,16 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<div>
+        <p>
+            
+            
+    {!$Browser.isTablet}
+    {!$Browser.isPhone}
+    {!$Browser.isAndroid}
+    {!$Browser.formFactor}
+            I am from A component i,e Parent Component
+            
+    
+            <c:B/>
+        </p>
+    </div>
+</aura:component>

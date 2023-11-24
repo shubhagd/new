@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <img src="{!$Resource.Myresource}"/>
+    <aura:attribute name="myText" type="String" default="Shubha"/>
+    <div>
+        <p>
+            Welcome in the world of Aura component development in-depth with legend Amith Malhotra
+            
+        </p>
+    </div>
+    <lightning:input type="text" label="Enter Name" value="{!v.myText}"/>
+</aura:component>

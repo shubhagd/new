@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="formHeading" label="Page Heading" datasource="LTIMindtree Employee Registration Form,Mindtree Employee Registration Form"/>
+	
+</design:component>

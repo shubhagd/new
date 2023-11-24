@@ -1,0 +1,6 @@
+<apex:page controller="MyCustomCode" >
+<apex:form >
+Welcome to visual force development page : {!$User.FirstName} <br></br>
+<apex:inputText value="{!MyCustomCode.name}"/>
+</apex:form>
+</apex:page>

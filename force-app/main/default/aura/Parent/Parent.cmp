@@ -1,0 +1,5 @@
+<aura:component >
+	I am from Parent Component
+<aura:handler name="myEvt" event="c:myEvt" action="{!c.handleEvent}"/>
+<c:child myText1="I am coming from parent to child"/>
+</aura:component>

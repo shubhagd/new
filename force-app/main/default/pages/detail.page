@@ -1,0 +1,11 @@
+<apex:page >
+ <apex:form >
+ 
+ <apex:pageblock >
+ 
+ <apex:detail />
+ 
+ </apex:pageblock>
+ 
+ </apex:form>
+</apex:page>

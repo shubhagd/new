@@ -1,0 +1,28 @@
+<aura:component controller="EmpInfo" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute type="String" name="formHeading" default="LTIMindtree Employee Registration Form"/>
+    <aura:attribute type="String" name="empName" default=""/>
+    <aura:attribute type="String" name="empFatherName" default=""/>
+    <aura:attribute type="String" name="empAddress" default=""/>
+    <aura:attribute type="String" name="empDept" default=""/>
+    <aura:attribute type="String" name="empSalary" default=""/>
+      <div class="slds-text-heading_large">
+            
+          <div class="slds-text-align_center">
+            {!v.formHeading}
+          </div>
+        </div>
+          
+            
+            
+    <div class="slds-align_absolute-center">
+        <div class="slds-size_3-of-8">
+    <lightning:input type="text" label="Enter Name" value="{!v.empName}"/>
+    <lightning:input type="text" label="Enter Father Name" value="{!v.empFatherName}"/>
+    <lightning:input type="text" label="Enter Address" value="{!v.empAddress}"/>
+    <lightning:input type="text" label="Enter Dept" value="{!v.empDept}"/>
+    <lightning:input type="text" label="Enter Salary" value="{!v.empSalary}"/>
+    <lightning:button label="{!$Label.c.Save}" name ="empInfo" onclick="{!c.myMethod}"/>
+        </div>
+            </div>
+</aura:component>

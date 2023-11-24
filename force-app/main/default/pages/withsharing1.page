@@ -1,0 +1,10 @@
+<apex:page controller="MyClass1" >
+<apex:form >
+<apex:pageblock >
+
+{!$User.FirstName}
+<apex:inputText value="{!MyClass1.name}"/>
+</apex:pageblock>
+
+ </apex:form>
+</apex:page>

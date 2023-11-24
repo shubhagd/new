@@ -1,0 +1,14 @@
+<template>
+    <h1> test cmp </h1>
+    <lightning-input
+    type="text"
+    label="Account Name"
+    value={accountName}
+    onchange="{handleOnChangeAccountName}"
+    ></lightning-input>
+ <template for:each={actlist} for:item="a">
+    <l1 key={a.Id}>
+        {a.name}
+    </l1>
+ </template>
+</template>
